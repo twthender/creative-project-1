@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ccffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #333333 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ccffff !important;
+}
+
+.root-container {
+    background-color: #111111;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .nav-item {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .icon-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon-button i {
+        margin-right: 5px;
+    }
+
+    .active i {
+        color: white;
+    }
+
+    .root-container {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .post {
+        width: 100%;
+        background-color: #333333;
+        margin-top: 20px;
+    }
+
+    .post-header {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .post-details {
+        margin-left: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-tag {
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    .divider {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .post-header img {
+        width: 50px;
+        height: 50px
+    }
+
+    .post-content img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .post-comments {
+        width: 100%;
+        padding: 20px 20px 20px;
+        background-color: #444444;
+    }
+
+    .comment {
+        background-color: #555555;
+        padding: 20px;
+    }
+
+    .comment-header {
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .comment-details {
+        margin-left: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .photo-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .photo-grid img {
+        width: 50%;
+        height: 50%;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .friend-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .friend-item {
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .friend-item img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        background-color: #222222;
+        display: flex;
+    }
+
+    .footer p {
+        margin: auto;
+    }
+
+    .profile-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-header img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .profile-details {
+        margin-left: 10px;
+    }
+
+    .profile-body {
+        margin-top: 40px;
+    }
+
+    .profile-body h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .profile-friends {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+
+    .profile-friend-item {
+        text-align: center;
+        width: 50%;
+        height: 50%;
+    }
+
+    .profile-friend-item img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .profile-photos {
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
+
+    .profile-photos img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .profile-posts {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .nav-item {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .icon-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon-button i {
+        margin-right: 5px;
+    }
+
+    .active i {
+        color: white;
+    }
+
+    .root-container {
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+
+    }
+
+    .post {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #333333;
+        border: #666666 1px solid;
+    }
+
+    .post-header {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .post-details {
+        margin-left: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-tag {
+        display: flex;
+        flex-direction: row;
+        font-style: italic;
+        font-weight: normal;
+    }
+
+    .divider {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .post-header img {
+        width: 50px;
+        height: 50px
+    }
+
+    .post-content img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .post-comments {
+        width: 100%;
+        padding: 20px 20px 20px;
+        background-color: #444444;
+    }
+
+    .comment {
+        background-color: #555555;
+        padding: 20px;
+    }
+
+    .comment-header {
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .comment-details {
+        margin-left: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comment-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .photo-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .photo-grid img {
+        width: 320px;
+        height: 320px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .friend-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .friend-item {
+        width: 240px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .friend-item img {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 50px;
+        margin-top: 50px;
+        background-color: #222222;
+        display: flex;
+    }
+
+    .footer p {
+        margin: auto;
+    }
+
+    .profile-header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profile-header img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile-details {
+        margin-left: 20px;
+    }
+
+    .profile-body {
+        margin-top: 40px;
+    }
+
+    .profile-body h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .profile-friends {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .profile-friend-item {
+        text-align: center;
+    }
+
+    .profile-friend-item img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .profile-photos {
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .profile-photos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
